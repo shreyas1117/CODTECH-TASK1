@@ -1,0 +1,11 @@
+module mux(y,i,s);
+input[1:0] i;
+input s;
+output reg y;
+always@(i,s)
+case(s)
+1'd0:y=i[0];
+1'd1:y=i[1];
+endcase
+endmodule
+
