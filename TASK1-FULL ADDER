@@ -1,0 +1,10 @@
+module fulladder(
+    input a,
+    input b,
+    input cin,
+    output s,
+    output c
+    );
+    assign s=a^b^cin;
+    assign c=a&b|b&cin|cin&a;
+endmodule
