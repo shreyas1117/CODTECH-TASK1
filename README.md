@@ -85,15 +85,7 @@ A half adder is a digital circuit that adds two single-bit binary numbers (A and
 1. Sum (S): The result of adding A and B.
 2. Carry (C): A flag indicating whether the result of the addition is greater than 1.
 
-Truth Table
-| A | B | S | C |
-| 0 | 0 | 0 | 0 |
-| 0 | 1 | 1 | 0 |
-| 1 | 0 | 1 | 0 |
-| 1 | 1 | 0 | 1 |
-
 Circuit Diagram
-
 A half adder can be implemented using two logic gates:
 1. XOR Gate: Produces the sum (S) of A and B.
 2. AND Gate: Produces the carry (C) of A and B.
@@ -102,17 +94,6 @@ Full Adder
 A full adder is a digital circuit that adds three single-bit binary numbers (A, B, and Cin) and produces two outputs:
 1. Sum (S): The result of adding A, B, and Cin.
 2. Carry (Cout): A flag indicating whether the result of the addition is greater than 1.
-
-Truth Table
-| A | B | Cin | S | Cout |
-| 0 | 0 | 0 | 0 | 0 |
-| 0 | 0 | 1 | 1 | 0 |
-| 0 | 1 | 0 | 1 | 0 |
-| 0 | 1 | 1 | 0 | 1 |
-| 1 | 0 | 0 | 1 | 0 |
-| 1 | 0 | 1 | 0 | 1 |
-| 1 | 1 | 0 | 0 | 1 |
-| 1 | 1 | 1 | 1 | 1 |
 
 Circuit Diagram
 A full adder can be implemented using two half adders and one OR gate:
